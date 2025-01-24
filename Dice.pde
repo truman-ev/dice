@@ -24,7 +24,7 @@ void draw()
   //die1.show();
   //die1.roll();
   
-  
+   sum = 0;
   for(int h = 1; h <= 300; h+=100){
     for(int v = 1; v <= 300; v+=100){
       dice = new Die (RdmX+h, RdmY+v);
@@ -37,7 +37,7 @@ void draw()
   textSize(30);
   text("Total: "+sum, 95,345);
     System.out.println(sum);
-    sum = 0;
+   
 
 }
 void mousePressed()
